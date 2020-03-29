@@ -54,6 +54,30 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AllPanls\Canvas.xaml.cs">
+      <DependentUpon>Canvas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AllPanls\DockAndStackPanl.xaml.cs">
+      <DependentUpon>DockAndStackPanl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AllPanls\DockPanl.xaml.cs">
+      <DependentUpon>DockPanl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AllPanls\GridPanal.xaml.cs">
+      <DependentUpon>GridPanal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AllPanls\GridPanl2.xaml.cs">
+      <DependentUpon>GridPanl2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AllPanls\InkCanvas.xaml.cs">
+      <DependentUpon>InkCanvas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AllPanls\Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AllPanls\Window2.xaml.cs">
+      <DependentUpon>Window2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MVVM_Test\Common\DelegeteComand.cs" />
     <Compile Include="MVVM_Test\Common\NotificationObject.cs" />
     <Compile Include="MVVM_Test\ViewModels\Window1ViewModel.cs" />
@@ -66,6 +90,38 @@
     <Compile Include="WindowSlider.xaml.cs">
       <DependentUpon>WindowSlider.xaml</DependentUpon>
     </Compile>
+    <Page Include="AllPanls\Canvas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AllPanls\DockAndStackPanl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AllPanls\DockPanl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AllPanls\GridPanal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AllPanls\GridPanl2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AllPanls\InkCanvas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AllPanls\Window1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AllPanls\Window2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

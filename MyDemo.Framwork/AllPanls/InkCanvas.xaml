@@ -1,0 +1,21 @@
+﻿<Window x:Class="MyDemo.Framwork.AllPanls.InkCanvas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyDemo.Framwork.AllPanls"
+        mc:Ignorable="d"
+        Title="InkCanvas" Height="450" Width="800" Loaded="Window_Loaded">
+    <!--InkCavas是一个画图控件，它允许在它之上加载其它控件，比如加载一个按钮；
+    可以通过InkCanvas的Right/Left/Bottom/Top属性来指定元素的位置;
+    运行程序后，可发现，当鼠标移动到InkCanvas区域时，鼠标会变成一个黑点，按下鼠标左键移动会画出线条-->
+    <Grid>
+    <InkCanvas Name="inkcan" >
+        <Button InkCanvas.Bottom="20" InkCanvas.Left="20">nihao</Button>
+    </InkCanvas>
+    <ComboBox x:Name="comboBox" VerticalAlignment="Top" SelectionChanged="comboBox_SelectionChanged"/>
+        
+    </Grid>
+    
+    
+</Window>
